@@ -1,4 +1,3 @@
-#Eureka server should only be used tomanage the service registry but not as client that's why we need to set below 2 properties as false
 eureka:
   client:
     register-with-eureka: false
